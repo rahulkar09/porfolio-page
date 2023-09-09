@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <nav>
+                <div class="logo"> RAHUL KAR </div>
+                    <div class="nav_items">
+                        <a href="#project_section">
+                            <div id="1">PROJECTS</div>
+                        </a>
+                        <a href="#skills">
+                            <div id="2">SKILLS</div>
+                        </a>
+                        <a href="#contactus">
+                            <div id="3">CONTACT ME</div>
+                        </a>
+                    </div>
+               </nav>
+
+               <div class="hero_section" id="hero_section">
+                <div class="heroleft">
+                    <h1>Hii, I'm <span>Rahul Kar</span></h1>
+                    <h2>a <span class="role"></span></h2>
+
+                    <div class="description">I am a softwere developer and here is my portfolio website. Here you will see my journey as a softwere developer.</div>
+                    <button class="button1">Hire Me</button>
+                </div>
+                <div class="heroright">
+                    <img src="mupic.jpg" alt="my pic" height="400px" width="400px">
+
+                </div>
+                <div class="faded_text">
+                    RAHUL KAR
+                </div>
+               </div>
+              
+           </div>
+
+           <div class="project_section" id="project_section">
+            <h2 class="heading">PROJECTS</h2>
+
+            <div class="card1">
+                <div class="project_content">
+                    <div class="num">01</div>
+                    <div class="main_content">
+                
+                <div class="icons">
+                    <img class="project-skill" src="HTML.png" alt="" />
+                    <img class="project-skill" src="CSS.png" alt="" />
+                    <img class="project-skill" src="Javascript.svg" alt="" />
+                </div>
+                <div class="heading3">House Dekho landing page</div>
+                    <div class="des"> Its is a house search company 
+                        which provide you house at your dream location</div>
+                        <div class="button1">Read More</div>
+
+                 </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="project_content2">
+                    <div class="num2">02</div>
+                    <div class="main_content2">
+                
+                <div class="icons2">
+                    <img class="project-skill2" src="HTML.png" alt="" />
+                    <img class="project-skill2" src="CSS.png" alt="" />
+                    <img class="project-skill2" src="Javascript.svg" alt="" />
+                </div>
+                <div class="heading4">Portfolio page</div>
+                    <div class="des2"> It is a portfolio webpage which reflects my knowledge and skills</div>
+                        <div class="button1">Read More</div>
+
+                 </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="skill_contianer">
+        <div class="skills" id="skills">
+            <div class="skills_left">
+                <div class="heading5"><span>M</span>y Tech Skills</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque aliquam cupiditate quo fuga non, nam voluptates at! Explicabo, rem excepturi!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, corporis dicta! Quaerat distinctio dolores quos aut adipisci, accusantium reprehenderit. Cumque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic corrupti odit rem, pariatur quia exercitationem error recusandae harum quisquam accusantium?</p>
+                <div class="heading6">Know More about me</div>
+                <a href="mupic.jpg" download> <button class="button1" id="butt1">Download CV</button></a>
+            </div>
+            <div class="skills_right">
+                <img src="HTML.png" alt="HTML">
+                <img src="CSS.png" alt="css">
+                <img src="images.png" alt="c">
+                <img src="cpp.png" alt="cpp">
+                <img src="Javascript.svg" alt="Javascript">
+            </div>
+        </div>
+    </div>
+
+    <div class="contactus_container" id="contactus">
+        <div class="contactus">
+            
+            <h1 class="contactus-heading">Contact me</h1>
+
+            <h3 class="contactus-sub-heading">
+              Questions, thoughts, or just want to say hello?
+            </h3>
+        </div>
+        <div class="contactus_form">
+            <input type="text" id="text" placeholder="Enter your name">
+            <input type="email" id="email" placeholder="Enter your email">
+            <textarea name="text" id="" cols="30" rows="10" placeholder="Enter your massege"></textarea>
+            <button class="button1">Send Message</button>
+        </div>
+        <div class="footer">
+            <div class="icons">
+               <a href="#"> <i class="fa-brands fa-facebook" style="color: #f7f5f5;"></i></a>
+               <a href="#"> <i class="fa-brands fa-instagram " style="color: #ffffff;"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #f5f5f5;"></i></a>
+            </div>
+            <div class="company">
+                <a href="#project_section">
+                    <p>Projects</p>
+                </a><a href="#hero_section">
+                    <p>About Me</p>
+                </a>
+
+                <a href="#contactus">
+                    <p>Contact Me</p>
+                </a>
+            </div>
+            <span>©MyPortfolioPage
+            </span>
+        </div>
+    </div>
+
+        
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</body>
+</html>
+
+css
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    
+}
+nav{
+    height: 7rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+.logo{
+    font-size: 2.5rem;
+    margin-left: -20px;
+    font-weight: 800;
+
+}
+.nav_items{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+.nav_items a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.nav_items a:hover{
+    font-weight:500;
+    color: red;
+
+}
+
+.hero_section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+
+}
+.faded_text{
+    position:absolute;
+    user-select:none;
+    font-size: 7em;
+    color:rgb(231,231,231);
+    
+    bottom: -16%;
+    left: -5%;
+    font-weight: bold;
+    transition: all 3s;
+}
+.heroleft{
+    /* width:100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.heroleft h1{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+}
+.heroleft h1 span{
+    font-size: 40px;
+    font-weight: 800;
+    color: red;
+}
+.heroleft h2{
+      font-size: 45px;
+    line-height: 45px;
+    font-weight: 50;
+}
+.role{
+    color: #000000;
+    font-weight: 800;
+}
+.description{
+    margin-top: 1rem;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button1 {
+    background-color: orangered;
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: solid 3px transparent;
+    position: relative;
+    z-index: 1;
+  }
+  .button1::before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: -1;
+    width: 0%;
+    transform-origin: left;
+    transition: all 0.8s;
+  }
+  .button1:hover::before {
+    width: 100%;
+  }
+  .button1:hover {
+    border: solid 3px orangered;
+    color: black;
+  }
+  .heroright img{
+    margin-right: 80px;
+    padding: 2.5rem;
+    filter: grayscale(0);
+    transition: all 1s;
+    animation: scaleimage 5s linear infinite;
+  }
+  @keyframes scaleimage{
+    0%{
+        transform: scale(1);
+        filter: grayscale(0);
+    }
+    50%{
+        transform:scale(1.1);
+        filter:grayscale(1);
+        box-shadow: 3px 3px 10px black;
+
+    }
+    100%{
+        transform: scale(1);
+        filter: grayscale(0);
+    }
+  }
+
+  .project_section{
+    background-color: rgb(231,231,231);
+    margin-top:3.5rem;
+  }
+  .heading{
+    color: orangered;
+    font-size:90px;
+    text-align:center;
+    padding-top:35px;
+  }
+  .card1{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:3rem 0;
+
+    display:flex;
+    flex-direction:column;
+    gap:120px;
+  }
+  .project_content{
+    width: 90%;
+    height: 496px;
+    background-image: url(Screenshot\ 2023-09-06\ 212255.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    box-shadow:0px 0px 40px #1f1f1f; 
+  }
+  .project_content::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #1f1f1f9a;
+    z-index:0;
+  }
+  .project_content::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+    transform:scaleX(0);
+    transform-origin: left;
+    transition: all 0.4s;
+    z-index:1;
+}
+.project_content:hover::before{
+    transform:scaleX(1);
+  }
+.num{
+    position: absolute;
+    right:-40px;
+    top:-45px;
+    font-size:150px;
+    font-weight:600;
+    color:white;
+    z-index: 10;
+    opacity: 0;
+}
+.des{
+    font-size: large;
+    color: white;
+}
+.project_content:hover .num{
+    opacity: 1;
+
+}
+.main_content{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    padding-left:4em;
+    bottom:20%;
+    z-index:5;
+    gap: 2em;
+    transition:all 0.4s;
+    opacity: 0;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+.project-skill{
+  width: 40px;
+ 
+}
+.project_content:hover .main_content{
+ opacity: 1;
+}
+.heading3{
+    font-size:50px;
+    font-weight: bold;
+    line-height:3rem;
+}
+
+.card2{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:3rem 0;
+    margin-right: 50px;
+    display:flex;
+    flex-direction:column;
+    gap:120px;
+  }
+
+.project_content2{
+    width: 90%;
+    height: 496px;
+    background-image: url(2nd\ project.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    box-shadow:0px 0px 40px #1f1f1f; 
+}
+.project_content2::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+    transform:scaleX(0);
+    transform-origin: left;
+    transition: all 0.4s;
+    z-index:1;
+}
+.project_content2::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #1f1f1f9a;
+    z-index:0;
+  }
+  .project_content2:hover::before{
+    transform:scaleX(1);
+  }
+  .num2{
+    position: absolute;
+    left:-40px;
+    top:-60px;
+    font-size:150px;
+    font-weight:600;
+    color:white;
+    z-index: 10;
+    opacity: 0;
+}
+.des2{
+    font-size: large;
+    color: white;
+}
+.project_content2:hover .num2{
+    opacity: 1;
+
+}
+.main_content2{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    
+    color:white;
+    padding-left:4em;
+    bottom:20%;
+    z-index:5;
+    gap: 2em;
+    transition:all 0.4s ease;
+    opacity: 0;
+}
+.icons2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+.project-skill2{
+  width: 40px;
+ 
+}
+.project_content2:hover .main_content2{
+    opacity: 1;
+}
+
+
+.skill_contianer{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skills_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+.skills_left .heading5{
+    color: red;
+    font-size: 40px;
+}
+.skills_left .heading5 span{
+    color: red;
+    font-size: 70px;
+    font-weight: 800;
+}
+.heading6{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.skills_right{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    
+}
+.skills_right img{
+    width: 70px;
+    height: 70px;
+    transition: all 0.4s ease;
+
+}
+.skills_right img:hover{
+    transform: scale(1.2);
+}
+.contactus_container{
+    background-color: rgb(231,231,231);
+    width: 100%;
+    height: 100%;
+}
+.contactus{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+.contactus-heading{
+    color: rgb(242, 84, 32);
+    font-size: 80px;
+    font-weight: bold;
+}
+.contactus-sub-heading{
+    color: rgb(90, 90, 84);
+    font-size: 40px;
+    
+}
+.contactus_form{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+}
+.contactus_form input{
+    width: 70%;
+    height:42px;
+    padding: 0 2rem;
+    font-size:18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+}
+.contactus_form textarea{
+    width: 70%;
+    height:auto;
+    padding: 1rem 2rem;
+    font-size:18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+
+}
+.contactus_form button{
+    align-self: flex-start;
+    margin-left: 10em;
+    width: 300px;
+}
+
+.footer{
+    margin-top: 39px;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons a i{
+    margin: 10px;
+}
+.company a{
+    text-decoration: none;
+}
+
+.company a p{
+    display: inline-block;
+    margin: 20px;
+    color: aliceblue;
+    font-size: small;
+}
+
+.footer span{
+    color: antiquewhite;
+    font-size: x-small;
+    text-align: center;
+}
